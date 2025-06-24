@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+# virtual environments
+venv/
+# Python cache
+__pycache__/
+*.pyc
+# Editor folders
+.vscode/
+.idea/
+# Environment files
+.env.example
