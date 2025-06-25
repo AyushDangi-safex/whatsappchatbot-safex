@@ -1,0 +1,8 @@
+applications:
+  - name: whatsapp-bot-safex        # choose a globally unique app name
+    memory: 512M
+    buildpack: python_buildpack
+    command: python run.py
+    env:                              # you’ll override these in CF, but can provide defaults
+      WHATSAPP_API_URL: "https://graph.facebook.com/v23.0"
+      PORT: 5000
