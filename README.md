@@ -24,7 +24,7 @@ Create a `.env` file with the following variables:
 
 ```
 WHATSAPP_TOKEN=your_whatsapp_token
-WHATSAPP_API_URL=https://graph.facebook.com/v22.0
+WHATSAPP_API_URL=https://graph.facebook.com/v23.0
 VERIFY_TOKEN=your_verification_token
 PHONE_NUMBER_ID=your_phone_number_id
 OPENAI_API_KEY=your_openai_api_key
